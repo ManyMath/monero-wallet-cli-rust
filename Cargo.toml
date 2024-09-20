@@ -1,0 +1,13 @@
+[package]
+name = "monero-wallet-cli"
+version = "0.0.1"
+edition = "2021"
+description = "monero-wallet-cli in Rust.  A command-line interface."
+repository = "https://github.com/ManyMath/monero-wallet-cli"
+license = "MIT"
+
+[[bin]]
+name = "monerod"
+path = "src/main.rs"
+
+[dependencies]
